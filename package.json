@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1593.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "sharp": "^0.33.3"
+  },
+  "name": "expressapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "kiddy",
+  "license": "ISC",
+  "description": ""
+}
