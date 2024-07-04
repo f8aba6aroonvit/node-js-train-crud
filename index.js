@@ -20,8 +20,8 @@ var indexRouter = require('./routes/index');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
 var productRouter = require('./routes/products')
-var orderRouter= require('./routes/orders')
 
+var orderRouter= require('./routes/orders')
 
 
 mongoose.connect(`mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}`)
